@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            width: 50%;
+            font-size: 20px;
+            height: 50px;
+        }
+
+        label {
+            font-size: 30px;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            font-size: 22px;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="">Fill The Adress Details</label><br>
+    <input type="text" name="" id="" placeholder="Enter Adress">
+    <button onclick="sub()">Submit</button>
+
+</body>
+
+</html>
+<script>
+    // 0 seconds : Your order is accepted 3 seconds :
+    //  Your order is being cooked 8 seconds : 
+    // Your order is ready 10 seconds : 
+    // Order out for delivery 12 seconds : Order delivered
+
+    function sub() {
+        alert("Your order is complete in 33 seconds");
+
+        setTimeout(function () {
+            alert("Your Order Is accepted")
+        }, 3000)
+
+
+        setTimeout(function () {
+            alert("Your Order Is being Cooked")
+        }, 11000)
+
+
+        setTimeout(function () {
+            alert("Your Order Is Ready")
+        }, 21000)
+        setTimeout(function () {
+            alert("Order Delivered")
+        }, 33000)
+    }
+</script>

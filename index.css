@@ -1,0 +1,22 @@
+#nav{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    border: 1px solid black;
+    justify-content: right;
+    background-color: rgb(22, 19, 19);
+}
+#nav>div{
+    padding: 10px;
+    width: 10%;
+    height: 30px;
+ color: white;
+    font-weight: 600;
+}
+a{
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}

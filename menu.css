@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: teal;
+}
+#food{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    margin: auto;
+
+}
+#foodImage{
+    width: 250px;
+    height: 250px;
+}
+#item{
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 20px;
+}
